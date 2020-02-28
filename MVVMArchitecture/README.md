@@ -12,3 +12,8 @@
 - DAO allows us to communicate with the database by implementing queries (database operations) as methods
 - With the above bullet point, DAO is implemented as an abstract class or interface
 - I have added query methods such as insert, delete and select
+
+4. LiveData class 
+- LiveData class is a lifecycle library class that listens to updates or changes in data
+- This class makes updating UI or other components that rely on the data to be updated easily by letting them observe the changes in data and be notified automatically upon those changes
+- simply wrap the data type of selectAll() method in DAO class with LiveData<>
