@@ -25,3 +25,8 @@
 
 6. Repository class
 - Repository class abstracts access to data sources. It is not a part of Architecture Component libraries but provide clean API that connects the UI (View) and the backend data sources (Model), separating the two so that they do not directly access each other 
+
+7. ViewModel
+- ViewModel is a bridge between the Repository class and the UI
+- Being part of lifecycle linrary, ViewModel is lifecycle aware and allows us to save UI data and states in order to recreate them upon configuration changes like screen rotation
+- separates UI data from the UI components like Activities and Fragments so the UI only needs to think about displaying the data and not about the data itself. This is even enhanced with the use of LiveData class which updates the data easily.
