@@ -17,3 +17,10 @@
 - LiveData class is a lifecycle library class that listens to updates or changes in data
 - This class makes updating UI or other components that rely on the data to be updated easily by letting them observe the changes in data and be notified automatically upon those changes
 - simply wrap the data type of selectAll() method in DAO class with LiveData<>
+
+5. RoomDatabase
+- This is a layer on top of the actual database that will perform database operations in the background
+
+*volatile: declares the data write in the main memory for thread synchronization. All reads and writes through the main memory.
+
+*singleton: only one instance of the class will ever be instantiated throughout the whole program
