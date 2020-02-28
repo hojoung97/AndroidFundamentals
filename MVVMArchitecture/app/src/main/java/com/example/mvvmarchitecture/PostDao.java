@@ -1,5 +1,6 @@
 package com.example.mvvmarchitecture;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
@@ -17,5 +18,5 @@ public interface PostDao {
     void deleteAll();
 
     @Query("SELECT * FROM post_data_table")
-    List<PostData> selectAll();
+    LiveData<List<PostData>> selectAll();
 }
