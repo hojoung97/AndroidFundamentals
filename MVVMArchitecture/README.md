@@ -20,7 +20,8 @@
 
 5. RoomDatabase
 - This is a layer on top of the actual database that will perform database operations in the background
+- *volatile: declares the data write in the main memory for thread synchronization. All reads and writes through the main memory.
+- *singleton: only one instance of the class will ever be instantiated throughout the whole program
 
-*volatile: declares the data write in the main memory for thread synchronization. All reads and writes through the main memory.
-
-*singleton: only one instance of the class will ever be instantiated throughout the whole program
+6. Repository class
+- Repository class abstracts access to data sources. It is not a part of Architecture Component libraries but provide clean API that connects the UI (View) and the backend data sources (Model), separating the two so that they do not directly access each other 
