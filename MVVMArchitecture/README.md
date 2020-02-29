@@ -30,3 +30,6 @@
 - ViewModel is a bridge between the Repository class and the UI
 - Being part of lifecycle linrary, ViewModel is lifecycle aware and allows us to save UI data and states in order to recreate them upon configuration changes like screen rotation
 - separates UI data from the UI components like Activities and Fragments so the UI only needs to think about displaying the data and not about the data itself. This is even enhanced with the use of LiveData class which updates the data easily.
+
+8. RecyclerView
+For myself: Time to review RecyclerView and make sure I can make one without referencing
