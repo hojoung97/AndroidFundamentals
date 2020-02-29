@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MVVMArchitecture</string>
+
+    <string name="user_id_prompt">User ID: </string>
+    <string name="id_prompt">ID: </string>
+    <string name="title_prompt">Title: </string>
+    <string name="body_prompt">Body: </string>
 </resources>
