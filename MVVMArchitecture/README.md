@@ -35,3 +35,11 @@
 For myself only: 
 
 Time to review RecyclerView and make sure I can make one without referencing
+
+### Updated 
+Updated my MVVM practice app to my previous version to focus on Retrofit, Dagger, RxJava on a separate practice app for each.
+This app is tutorial from Google codelab.
+
+## App Snaps
+<img src="https://github.com/hojoung97/AndroidFundamentals/blob/master/MVVMArchitecture/images/snapshot.png" width="250"><img src="https://github.com/hojoung97/AndroidFundamentals/blob/master/MVVMArchitecture/images/MVVM_demo.gif" width="250">
+
