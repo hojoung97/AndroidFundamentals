@@ -5,7 +5,7 @@
 - Lifecycle components
 
 2. Create Entity class: Entity is a class that will represent the data itself
-- I will use example data from jsonplaceholder.typicode.com https://jsonplaceholder.typicode.com/posts
+- Updated: for simplicity and to focus this example to practicing MVVM architecture, I will use simple Entity class with only String attribute
 - Annotate the enitity class in order to work with Room database (ex. PrimaryKey, ColumnInfo)
 
 3. Create DAO (Data Access Object)
@@ -32,4 +32,6 @@
 - separates UI data from the UI components like Activities and Fragments so the UI only needs to think about displaying the data and not about the data itself. This is even enhanced with the use of LiveData class which updates the data easily.
 
 8. RecyclerView
-For myself: Time to review RecyclerView and make sure I can make one without referencing
+For myself only: 
+
+Time to review RecyclerView and make sure I can make one without referencing
